@@ -1,15 +1,15 @@
 {
 	"translatorID": "96b9f483-c44d-5784-cdad-ce21b984fe01",
+	"translatorType": 4,
 	"label": "Amazon.com",
 	"creator": "Sean Takats, Michael Berkowitz, and Simon Kornblith",
 	"target": "^https?://(?:www\\.)?amazon",
 	"minVersion": "2.1",
-	"maxVersion": "",
+	"maxVersion": null,
 	"priority": 100,
 	"inRepository": true,
-	"translatorType": 4,
-	"browserSupport": "gcsb",
-	"lastUpdated": "2014-03-03 22:50:05"
+	"browserSupport": "gcsbv",
+	"lastUpdated": "2014-02-24 07:50:00"
 }
 
 var searchRe = new RegExp('^https?://(?:www\.)?amazon\.([^/]+)/(gp/search/|(gp/)?registry/(wishlist|registry)|exec/obidos/search-handle-url/|s/|s\\?|[^/]+/lm/|gp/richpub/)');
